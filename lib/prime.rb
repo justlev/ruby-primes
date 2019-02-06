@@ -8,10 +8,10 @@ module Prime
     prime_numbers = Generator.generate_primes(length)
 
     # build matrix
-    table = MultiplicationTable.from_array prime_numbers
+    table = MultiplicationTable.from_array(prime_numbers)
 
-    Console.pretty_print_matrix table
-    
+    Console.pretty_print_matrix(table)
+
     table
   end
 end

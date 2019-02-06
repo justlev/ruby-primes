@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
 
   spec.files         = ['app.rb']
-  spec.require_paths = ['lib']
+  spec.require_paths = %w(lib)
 end
 
 require_relative('./app')
